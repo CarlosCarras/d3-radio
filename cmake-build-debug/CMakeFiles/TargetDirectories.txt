@@ -1,0 +1,3 @@
+/Users/carloscarrasquillo/CLionProjects/CubeSat_Transceiver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/carloscarrasquillo/CLionProjects/CubeSat_Transceiver/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/carloscarrasquillo/CLionProjects/CubeSat_Transceiver/cmake-build-debug/CMakeFiles/CubeSat_Transceiver.dir

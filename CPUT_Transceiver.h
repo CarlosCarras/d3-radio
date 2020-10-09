@@ -1,5 +1,5 @@
 /*
- * transeiver.h
+ * CPUT_Transceiver.h
  * @author        : Carlos Carrasquillo
  * @contact       : c.carrasquillo@ufl.edu
  * @date created  : April 17, 2020
@@ -29,7 +29,7 @@ private:
 
 public:
     CPUT_Transceiver(int bus, int address);
-    void transmit_str(std::string data);
+    void transmitString(std::string data);
 
     //virtual ~CPUT_Transceiver();
 };

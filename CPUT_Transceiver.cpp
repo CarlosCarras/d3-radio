@@ -1,5 +1,5 @@
 /*
- * transeiver.cpp
+ * CPUT_Transceiver.cpp
  * @author        : Carlos Carrasquillo
  * @contact       : c.carrasquillo@ufl.edu
  * @date created  : April 17, 2020
@@ -20,13 +20,13 @@ CPUT_Transceiver::CPUT_Transceiver(int bus, int address){
 
 
 /*
- * CPUT_Transceiver::transmit_str : sends a string of data to the antenna over I2C
+ * CPUT_Transceiver::transmitString : sends a string of data to the antenna over I2C
  *
  * @Param:
  *      - data : the string to write over I2C
  * @Return:
  *      - N/A
  */
-void CPUT_Transceiver::transmit_str(std::string data) {
+void CPUT_Transceiver::transmitString(std::string data) {
     i2c_write_str(data + '\n');
 }
