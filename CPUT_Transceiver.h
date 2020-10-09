@@ -24,11 +24,10 @@
 class CPUT_Transceiver {
 
 private:
-    int I2CBus, I2CAddress;
     char dataBuffer[CPUT_TRANSCEIVER_I2C_ADDR];
 
 public:
-    CPUT_Transceiver(int bus, int address);
+    explicit CPUT_Transceiver();
     void transmitString(std::string data);
 
     //virtual ~CPUT_Transceiver();

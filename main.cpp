@@ -1,4 +1,5 @@
 #include "SendFile.h"
+#include "ReceiveFile.h"
 
 #define CSV_PATH         "./../test"
 
@@ -18,16 +19,26 @@ std::string get_csv_path() {
     return csv_path;
 }
 
-
-
-int main() {
-    int bus = 5;
-    SendFile sendFile(bus);
+void sendAFile() {
+    SendFile sendFile;
 
     // this is supposed to work once and fail twice (only one CSV file called "test0.csv")
     // NOTE:  fix the  'CSV_PATH' define in CSV_Transmitter.h
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 2; i++) {
         sendFile.send(get_csv_path());
         trans_cnt++;
     }
+}
+
+void writeAFile() {
+    ReceiveFile receiveFile;
+    if (receiveFile.writeFile()) {
+        std::cout << "There was a problem interpreting the telecommand.";
+    }
+}
+
+
+int main() {
+    sendAFile();
+    writeAFile();
 }

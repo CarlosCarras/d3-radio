@@ -12,8 +12,7 @@
 #include "SendFile.h"
 
 
-SendFile::SendFile(int bus) {
-    this->bus = bus;
+SendFile::SendFile() {
     trans_cnt = 0;
 }
 
@@ -78,12 +77,12 @@ void SendFile::addFileIdentifier(CPUT_Transceiver &transceiver, const std::strin
  */
 int SendFile::send(std::string filename) {
 
-    CPUT_Transceiver transceiver(bus, 2);
+    CPUT_Transceiver transceiver;
     std::ifstream csv(filename);     // opens CSV file
 
     // if the file is not open, transmit an error over I2C
     if(!csv.is_open()) {
-        std::string err_msg("\nERROR 404: The csv file was unable to be opened.\n");
+        std::string err_msg = "\nERROR 404: The file " + filename + " was unable to be opened.\n";
         transceiver.transmitString(err_msg);
         return 1;
     }

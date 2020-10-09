@@ -17,9 +17,11 @@
 
 
 #include <iostream>
+#include<algorithm>
 
 void i2c_write_char(char const &c);
 void i2c_write_str(std::string const &str);
-
+char i2c_read_char();
+std::string i2c_read_str();
 
 #endif //I2C_H

@@ -1,10 +1,13 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CubeSat_Transceiver.dir/main.cpp.o"
-  "CMakeFiles/CubeSat_Transceiver.dir/i2c.cpp.o"
-  "CMakeFiles/CubeSat_Transceiver.dir/CPUT_Transceiver.cpp.o"
-  "CMakeFiles/CubeSat_Transceiver.dir/SendFile.cpp.o"
+  "CMakeFiles/CubeSat_Transceiver.dir/CPUT_Transceiver.cpp.obj"
+  "CMakeFiles/CubeSat_Transceiver.dir/ReceiveFile.cpp.obj"
+  "CMakeFiles/CubeSat_Transceiver.dir/SendFile.cpp.obj"
+  "CMakeFiles/CubeSat_Transceiver.dir/i2c.cpp.obj"
+  "CMakeFiles/CubeSat_Transceiver.dir/main.cpp.obj"
+  "CubeSat_Transceiver.exe"
+  "CubeSat_Transceiver.exe.manifest"
   "CubeSat_Transceiver.pdb"
-  "CubeSat_Transceiver"
+  "libCubeSat_Transceiver.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

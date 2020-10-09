@@ -12,12 +12,9 @@
 
 #include "CPUT_Transceiver.h"
 
+CPUT_Transceiver::CPUT_Transceiver() {
 
-CPUT_Transceiver::CPUT_Transceiver(int bus, int address){
-    I2CBus = bus;
-    I2CAddress = address;
 }
-
 
 /*
  * CPUT_Transceiver::transmitString : sends a string of data to the antenna over I2C

@@ -30,16 +30,14 @@
 class SendFile {
 
 private:
-    int bus;
     int trans_cnt;
     std::string getExtension(const std::string &filename);
     void addFileIdentifier(CPUT_Transceiver &transceiver, const std::string &filename, std::string ext, bool start_file);
 
 public:
-    explicit SendFile(int bus);
+    explicit SendFile();
     int send(std::string filename);
 
-    //virtual ~CSV_Transmitter();
 };
 
 
