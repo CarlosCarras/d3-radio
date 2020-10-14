@@ -13,12 +13,16 @@ CMakeFiles/CubeSat_Transceiver.dir/SendFile.cpp.obj: ../SendFile.cpp
 CMakeFiles/CubeSat_Transceiver.dir/SendFile.cpp.obj: ../SendFile.h
 CMakeFiles/CubeSat_Transceiver.dir/SendFile.cpp.obj: ../i2c.h
 
+CMakeFiles/CubeSat_Transceiver.dir/StoreRawPacket.cpp.obj: ../StoreRawPacket.cpp
+CMakeFiles/CubeSat_Transceiver.dir/StoreRawPacket.cpp.obj: ../StoreRawPacket.h
+
 CMakeFiles/CubeSat_Transceiver.dir/i2c.cpp.obj: ../i2c.cpp
 CMakeFiles/CubeSat_Transceiver.dir/i2c.cpp.obj: ../i2c.h
 
 CMakeFiles/CubeSat_Transceiver.dir/main.cpp.obj: ../CPUT_Transceiver.h
 CMakeFiles/CubeSat_Transceiver.dir/main.cpp.obj: ../ReceiveFile.h
 CMakeFiles/CubeSat_Transceiver.dir/main.cpp.obj: ../SendFile.h
+CMakeFiles/CubeSat_Transceiver.dir/main.cpp.obj: ../StoreRawPacket.h
 CMakeFiles/CubeSat_Transceiver.dir/main.cpp.obj: ../i2c.h
 CMakeFiles/CubeSat_Transceiver.dir/main.cpp.obj: ../main.cpp
 

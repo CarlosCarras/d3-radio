@@ -1,5 +1,6 @@
 #include "SendFile.h"
 #include "ReceiveFile.h"
+#include "StoreRawPacket.h"
 
 #define CSV_PATH         "./../test"
 
@@ -39,6 +40,7 @@ void writeAFile() {
 
 
 int main() {
-    sendAFile();
+    //sendAFile();
+    storePacket();
     writeAFile();
 }

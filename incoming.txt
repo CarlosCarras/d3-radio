@@ -1,6 +1,0 @@
-./../testdir/testmain.cpp
-class TestClass {
-public:
-    int a = 1;
-    int b = 2;
-};

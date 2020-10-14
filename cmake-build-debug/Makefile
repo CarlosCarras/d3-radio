@@ -223,6 +223,33 @@ SendFile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CubeSat_Transceiver.dir\build.make CMakeFiles/CubeSat_Transceiver.dir/SendFile.cpp.s
 .PHONY : SendFile.cpp.s
 
+StoreRawPacket.obj: StoreRawPacket.cpp.obj
+
+.PHONY : StoreRawPacket.obj
+
+# target to build an object file
+StoreRawPacket.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CubeSat_Transceiver.dir\build.make CMakeFiles/CubeSat_Transceiver.dir/StoreRawPacket.cpp.obj
+.PHONY : StoreRawPacket.cpp.obj
+
+StoreRawPacket.i: StoreRawPacket.cpp.i
+
+.PHONY : StoreRawPacket.i
+
+# target to preprocess a source file
+StoreRawPacket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CubeSat_Transceiver.dir\build.make CMakeFiles/CubeSat_Transceiver.dir/StoreRawPacket.cpp.i
+.PHONY : StoreRawPacket.cpp.i
+
+StoreRawPacket.s: StoreRawPacket.cpp.s
+
+.PHONY : StoreRawPacket.s
+
+# target to generate assembly for a file
+StoreRawPacket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CubeSat_Transceiver.dir\build.make CMakeFiles/CubeSat_Transceiver.dir/StoreRawPacket.cpp.s
+.PHONY : StoreRawPacket.cpp.s
+
 i2c.obj: i2c.cpp.obj
 
 .PHONY : i2c.obj
@@ -295,6 +322,9 @@ help:
 	@echo ... SendFile.obj
 	@echo ... SendFile.i
 	@echo ... SendFile.s
+	@echo ... StoreRawPacket.obj
+	@echo ... StoreRawPacket.i
+	@echo ... StoreRawPacket.s
 	@echo ... i2c.obj
 	@echo ... i2c.i
 	@echo ... i2c.s

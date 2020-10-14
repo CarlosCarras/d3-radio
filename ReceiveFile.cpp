@@ -12,7 +12,7 @@
 #include "ReceiveFile.h"
 
 ReceiveFile::ReceiveFile() {
-    rawfile = "./../incoming.txt";
+    rawfile = "./../rawfile.txt";
 }
 
 /*
@@ -31,8 +31,9 @@ ReceiveFile::fileData ReceiveFile::createFile(std::string &filepath) {
     auto pos = filepath.find_last_of ( '/' );
 
     if (pos == std::string::npos) {
-        newFile_data.filedir = "./";
+        newFile_data.filedir = "./../";
         newFile_data.filename = filepath;
+        newFile_data.filepath = newFile_data.filedir + filepath;
     } else {
         newFile_data.filedir = filepath.substr(0, pos);
         newFile_data.filename = filepath.substr(pos + 1);

@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CubeSat_Transceiver.dir/CPUT_Transceiver.cpp.obj"
   "CMakeFiles/CubeSat_Transceiver.dir/ReceiveFile.cpp.obj"
   "CMakeFiles/CubeSat_Transceiver.dir/SendFile.cpp.obj"
+  "CMakeFiles/CubeSat_Transceiver.dir/StoreRawPacket.cpp.obj"
   "CMakeFiles/CubeSat_Transceiver.dir/i2c.cpp.obj"
   "CMakeFiles/CubeSat_Transceiver.dir/main.cpp.obj"
   "CubeSat_Transceiver.exe"

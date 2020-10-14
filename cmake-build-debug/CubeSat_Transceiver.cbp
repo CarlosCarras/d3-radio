@@ -98,6 +98,12 @@
 		<Unit filename="C:/Users/Carlos/CLionProjects/D3_radio/SendFile.h">
 			<Option target="CubeSat_Transceiver"/>
 		</Unit>
+		<Unit filename="C:/Users/Carlos/CLionProjects/D3_radio/StoreRawPacket.cpp">
+			<Option target="CubeSat_Transceiver"/>
+		</Unit>
+		<Unit filename="C:/Users/Carlos/CLionProjects/D3_radio/StoreRawPacket.h">
+			<Option target="CubeSat_Transceiver"/>
+		</Unit>
 		<Unit filename="C:/Users/Carlos/CLionProjects/D3_radio/i2c.cpp">
 			<Option target="CubeSat_Transceiver"/>
 		</Unit>
